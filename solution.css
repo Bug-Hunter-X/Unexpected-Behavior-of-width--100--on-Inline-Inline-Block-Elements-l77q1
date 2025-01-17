@@ -1,0 +1,17 @@
+/* solution.css */
+.container {
+display: block; /* Change display to block */
+}
+.box {
+width: 100%;
+}
+/* Alternative Solution: using inline-block with width:100% and a container with width */
+.container2 {
+width: 300px;
+display: inline-block;
+}
+.box2 {
+width: 100%;
+box-sizing: border-box; /* Important to include padding and border in width calculation */
+display: inline-block;
+}
